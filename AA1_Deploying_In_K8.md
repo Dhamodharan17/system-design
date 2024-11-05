@@ -48,7 +48,7 @@ spec:
       containers:
         - name: spring-app
           image: demo:latest  # Replace with your Docker image name
-          imagePullPolicy: Never  # Prevents Kubernetes from pulling the image from a registry
+          imagePullPolicy: Never  # Prevents Kubernetes from pulling the image from a registry & to look local
           ports:
             - containerPort: 8080  # Replace with your app’s port if different
 
