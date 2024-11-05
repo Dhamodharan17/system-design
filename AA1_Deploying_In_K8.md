@@ -1,6 +1,23 @@
 ### Deploying in K8
 
 1. Create a spring boot project
+
+```
+@SpringBootApplication
+@RestController
+public class ArcSystemsApplication {
+
+	@GetMapping("/welcome")
+	public String welcome(){
+		return "Spring Boot Docker Demo";
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(ArcSystemsApplication.class, args);
+	}
+
+}
+```
 2. Build using Maven (Intellij) -> check jar has been generated in target folder
 3. Create a Dockerfile
 ```
