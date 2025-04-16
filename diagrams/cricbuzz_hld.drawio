@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="Page-1" id="iCaVKPsqi0-WtyQWC3g0">
-    <mxGraphModel>
+    <mxGraphModel dx="1098" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YA2nYMWMjYlJlhhiS9Gl-1" target="YA2nYMWMjYlJlhhiS9Gl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-1" value="Score Updater System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-2" value="CricBuzz&lt;div&gt;Web App&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="YA2nYMWMjYlJlhhiS9Gl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="581" y="190" as="targetPoint" />
+            <mxPoint x="520" y="290" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="581" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-20" value="Option 1 (manual update by seeing tv)&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YA2nYMWMjYlJlhhiS9Gl-12">
+          <mxGeometry x="0.4221" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-25" value="Option 3 (OCR)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YA2nYMWMjYlJlhhiS9Gl-12">
+          <mxGeometry x="0.4221" y="-3" relative="1" as="geometry">
+            <mxPoint x="196" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-3" value="Score Updater" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-4" value="Commentator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-14" value="Live TV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="720" y="260" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="YA2nYMWMjYlJlhhiS9Gl-15" target="YA2nYMWMjYlJlhhiS9Gl-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-15" value="Score Board System" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="120" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YA2nYMWMjYlJlhhiS9Gl-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="270" as="sourcePoint" />
+            <mxPoint x="710" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YA2nYMWMjYlJlhhiS9Gl-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="280" as="sourcePoint" />
+            <mxPoint x="720" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-21" value="option 2 to update score from&lt;div&gt;external system&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-22" value="&lt;b&gt;Push/Pull Model&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YA2nYMWMjYlJlhhiS9Gl-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="YA2nYMWMjYlJlhhiS9Gl-14" target="YA2nYMWMjYlJlhhiS9Gl-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="220" />
+              <mxPoint x="640" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
